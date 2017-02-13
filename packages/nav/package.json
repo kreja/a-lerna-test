@@ -1,7 +1,7 @@
 {
   "name": "a-lerna-test-nav",
-  "description": "",
-  "version": "0.0.2",
+  "description": "nav!",
+  "version": "0.0.4",
   "scripts": {
     "start": "DEV=1 webpack-dev-server --config webpack.config.js --open --hot --inline",
     "build": "webpack --config webpack.config.js  --profile --progress"
@@ -44,5 +44,8 @@
     "webpack": "~1.12.14",
     "webpack-dev-server": "^1.16.2",
     "webpack-module-hot-accept": "^1.0.4"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
   }
 }
