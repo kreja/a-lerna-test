@@ -2,7 +2,7 @@
   "name": "@ali/a-lerna-test-layer",
   "main": "lib/index.js",
   "description": "test lerna",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "publishConfig": {
     "registry": "http://registry.npm.alibaba-inc.com"
   },
