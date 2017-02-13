@@ -8,7 +8,7 @@ class Test extends React.Component {
   }
   render() {
     return (
-      <div className="test-component">hello world~</div>
+      <div className="test-component">im button</div>
     );
   }
 }

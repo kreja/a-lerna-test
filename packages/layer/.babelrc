@@ -1,0 +1,17 @@
+{
+    presets: ['es2015', 'stage-0', 'react'],
+    plugins: [
+        'add-module-exports',
+        'transform-object-assign',
+        'transform-react-display-name',
+        'transform-class-properties',
+        //支持IE8
+        //http://stackoverflow.com/questions/33512715/babel-6-0-20-modules-feature-not-work-in-ie8
+        'transform-es3-property-literals',
+        //IE9 不支持 super bug
+        //http://work.taobao.net/issues/50131
+        'transform-es3-member-expression-literals',
+        ['transform-es2015-classes',{loose:true}],
+        'transform-proto-to-assign'
+    ]
+}
