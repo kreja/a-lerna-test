@@ -1,7 +1,7 @@
 {
   "name": "a-lerna-test-button",
-  "description": "button 2",
-  "version": "0.0.2",
+  "description": "button 3",
+  "version": "0.0.3",
   "scripts": {
     "start": "DEV=1 webpack-dev-server --config webpack.config.js --open --hot --inline",
     "build": "webpack --config webpack.config.js  --profile --progress"
