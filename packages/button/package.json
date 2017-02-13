@@ -1,5 +1,5 @@
 {
-  "name": "a-lerna-test-button-tnpm",
+  "name": "@ali/a-lerna-test-button",
   "description": "button 3",
   "version": "0.0.4",
   "scripts": {

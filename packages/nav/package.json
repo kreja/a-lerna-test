@@ -1,5 +1,5 @@
 {
-  "name": "a-lerna-test-nav-tnpm",
+  "name": "@ali/a-lerna-test-nav",
   "description": "nav 4 - tnpm",
   "version": "0.0.4",
   "scripts": {
